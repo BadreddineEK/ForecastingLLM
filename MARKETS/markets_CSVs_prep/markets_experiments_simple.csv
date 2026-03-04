@@ -1,0 +1,171 @@
+exp_id,ticker,asset_class,j0_date,j5_target_date,snapshot_text,prompt_text,datetime_pred_off_utc,off_json_raw,datetime_pred_on_utc,on_json_raw,baseline_p,baseline_rule,outcome,close_j0,close_j5,outcome_run_datetime_utc
+MKT_SPY_2025-12-17,SPY,equity_etf,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 671.4000
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 678.8700, 680.7300, 681.7600, 689.1700, 687.5700
+- Perf 5 jours (%): -2.35%
+- Range% 5 jours: 2.65%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: SPY
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 671.4000
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 678.8700, 680.7300, 681.7600, 689.1700, 687.5700
+- Perf 5 jours (%): -2.35%
+- Range% 5 jours: 2.65%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,671.4,,
+MKT_QQQ_2025-12-17,QQQ,equity_etf,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 600.4100
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 611.7500, 610.5400, 613.6200, 625.5800, 627.6100
+- Perf 5 jours (%): -4.33%
+- Range% 5 jours: 4.53%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: QQQ
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 600.4100
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 611.7500, 610.5400, 613.6200, 625.5800, 627.6100
+- Perf 5 jours (%): -4.33%
+- Range% 5 jours: 4.53%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,600.41,,
+MKT_GLD_2025-12-17,GLD,equity_etf,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 399.2900
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 395.8900, 395.8000, 395.4400, 393.2400, 389.0500
+- Perf 5 jours (%): 2.63%
+- Range% 5 jours: 2.63%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: GLD
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 399.2900
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 395.8900, 395.8000, 395.4400, 393.2400, 389.0500
+- Perf 5 jours (%): 2.63%
+- Range% 5 jours: 2.63%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,399.29,,
+MKT_TLT_2025-12-17,TLT,equity_etf,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 87.8000
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 87.8800, 87.4000, 87.3400, 88.1900, 88.3100
+- Perf 5 jours (%): -0.58%
+- Range% 5 jours: 1.11%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: TLT
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 87.8000
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 87.8800, 87.4000, 87.3400, 88.1900, 88.3100
+- Perf 5 jours (%): -0.58%
+- Range% 5 jours: 1.11%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,87.8,,
+MKT_AAPL_2025-12-17,AAPL,equity_stock,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 271.8400
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 274.6100, 274.1100, 278.2800, 278.0300, 278.7800
+- Perf 5 jours (%): -2.49%
+- Range% 5 jours: 2.55%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: AAPL
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 271.8400
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 274.6100, 274.1100, 278.2800, 278.0300, 278.7800
+- Perf 5 jours (%): -2.49%
+- Range% 5 jours: 2.55%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,271.84,,
+MKT_MSFT_2025-12-17,MSFT,equity_stock,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 476.1200
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 476.3900, 474.8200, 478.5300, 483.4700, 478.5600
+- Perf 5 jours (%): -0.51%
+- Range% 5 jours: 1.82%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: MSFT
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 476.1200
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 476.3900, 474.8200, 478.5300, 483.4700, 478.5600
+- Perf 5 jours (%): -0.51%
+- Range% 5 jours: 1.82%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,476.12,,
+MKT_NVDA_2025-12-17,NVDA,equity_stock,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 170.9400
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 177.7200, 176.2900, 175.0200, 180.9300, 183.7800
+- Perf 5 jours (%): -6.99%
+- Range% 5 jours: 7.51%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: NVDA
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 170.9400
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 177.7200, 176.2900, 175.0200, 180.9300, 183.7800
+- Perf 5 jours (%): -6.99%
+- Range% 5 jours: 7.51%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,170.94,,
+MKT_TSLA_2025-12-17,TSLA,equity_stock,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 467.2600
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 489.8800, 475.3100, 458.9600, 446.8900, 451.4500
+- Perf 5 jours (%): 3.50%
+- Range% 5 jours: 9.62%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: TSLA
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 467.2600
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-10): 489.8800, 475.3100, 458.9600, 446.8900, 451.4500
+- Perf 5 jours (%): 3.50%
+- Range% 5 jours: 9.62%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,467.26,,
+MKT_BTC_2025-12-17,BTC,crypto,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 86219.0318
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-12): 87752.7136, 86115.3087, 88291.2742, 90170.6857, 90323.0718
+- Perf 5 jours (%): -4.54%
+- Range% 5 jours: 4.89%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: BTC
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 86219.0318
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-12): 87752.7136, 86115.3087, 88291.2742, 90170.6857, 90323.0718
+- Perf 5 jours (%): -4.54%
+- Range% 5 jours: 4.89%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,86219.03175601113,,
+MKT_ETH_2025-12-17,ETH,crypto,2025-12-17,2025-12-24,"- Close(J0=2025-12-17): 2831.2777
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-12): 2952.3022, 2943.8565, 3066.3634, 3115.2857, 3094.0373
+- Perf 5 jours (%): -8.49%
+- Range% 5 jours: 10.03%","Donne une probabilité p entre 0 et 1 que l’événement suivant arrive.
+Réponds UNIQUEMENT en JSON : {""p"": <number>, ""justification"": ""<2 phrases max>""}.
+
+Actif: ETH
+Événement: Close(J+5 séances) > Close(J0)
+
+Snapshot à J0 :
+- Close(J0=2025-12-17): 2831.2777
+- Close(J-1..J-5) (dates 2025-12-16→2025-12-12): 2952.3022, 2943.8565, 3066.3634, 3115.2857, 3094.0373
+- Perf 5 jours (%): -8.49%
+- Range% 5 jours: 10.03%
+
+Deadline: 24 décembre 2025 23:59 UTC
+",,,,,0.5,Coin flip baseline: p=0.5 for Close(J+5) > Close(J0).,,2831.277693717463,,

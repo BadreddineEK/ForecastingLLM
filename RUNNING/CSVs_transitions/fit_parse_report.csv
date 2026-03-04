@@ -1,0 +1,242 @@
+file_name,status,error
+460063636637908992.fit,ok,
+460092897983758336.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460093667596599296.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460162964735950859.fit,ok,
+460186559675662336.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460209063964213248.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460232280139399168.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460250055937392640.fit,ok,
+460279087768829952.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460302074970669056.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460341936291610624.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460419384754601984.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460419385020940288.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460419385023037440.fit,ok,
+460437832712880129.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460464761084084224.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460482901681668097.fit,ok,
+460488713042952192.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460505955726032896.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460534089103998976.fit,ok,
+460556194224832515.fit,ok,
+460582347891310592.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460627623289061376.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460643738813759488.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460646903399350272.fit,ok,
+460743692364316679.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460767214289584131.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460836099927867398.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460848656264757250.fit,ok,
+460883107539615751.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460952683862327296.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+460999049644900355.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461045526830284801.fit,ok,
+461061216614252545.fit,ok,
+461104095151816704.fit,ok,
+461136624695148546.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461183986641698820.fit,ok,
+461276516077043717.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461370209446428675.fit,ok,
+461392591861088257.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461408836234805249.fit,ok,
+461438214347980805.fit,ok,
+461462346693378051.fit,ok,
+461521821523542018.fit,ok,
+461555811089416193.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461579403074240516.fit,ok,
+461648819677855744.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461670459067367425.fit,ok,
+461717753097650177.fit,ok,
+461810613245476865.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461900789302984709.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461928122743291906.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461928122745389057.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+461963914050043914.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+462019018209919010.fit,ok,
+462043130961625088.fit,ok,
+462088661373059082.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+462109546725277699.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+462132229521309700.fit,ok,
+462181024109985802.fit,ok,
+462205082637729795.fit,ok,
+462220283061764097.fit,ok,
+462291002384744451.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+462297156533911554.fit,ok,
+462321082991411200.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+462389104001187843.fit,ok,
+462414616106926084.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+462499200119111680.fit,ok,
+462528971756568579.fit,ok,
+462610562447081474.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+462610562715516929.fit,ok,
+462668662348742660.fit,ok,
+462691003694874629.fit,ok,
+462708092832874501.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+462830559528255490.fit,ok,
+462853318025183237.fit,ok,
+462900502533799943.fit,ok,
+462945384942043137.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+462992600861802498.fit,ok,
+463131889872437255.fit,ok,
+463154765136691209.fit,ok,
+463201682015158277.fit,ok,
+463293751886905347.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+463357596575760385.fit,ok,
+463449012270301187.fit,ok,
+463472249924517892.fit,ok,
+463499158966272001.fit,ok,
+463541086168580100.fit,ok,
+463610484250148864.fit,ok,
+463635039651921920.fit,ok,
+463711797696823300.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+463755317258256389.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+463802627935731726.fit,ok,
+463844077320830977.fit,ok,
+463909165134282753.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+463911325771268098.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+464009766423789571.fit,ok,
+464052492756353029.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+464055263010258947.fit,ok,
+464075745440858114.fit,ok,
+464190181891670019.fit,ok,
+464214617034358785.fit,ok,
+464237926897713158.fit,ok,
+464286475595317250.fit,ok,
+464305783891329026.fit,ok,
+464562597969035271.fit,ok,
+464589301122891780.fit,ok,
+464631804924559363.fit,ok,
+464770902274375687.fit,ok,
+464911706603159554.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+464959152031039492.fit,ok,
+465027248200646662.fit,ok,
+465050314859380748.fit,ok,
+465095952913432579.fit,ok,
+465123143546077188.fit,ok,
+465307629315457031.fit,ok,
+465514564866310146.fit,ok,
+466046385165205510.fit,ok,
+466073045906259979.fit,ok,
+466073167505424388.fit,ok,
+466163778698903559.fit,ok,
+466163778698903560.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+466187216872308752.fit,ok,
+466233759019073543.fit,ok,
+466262349003653120.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+466278706657132548.fit,ok,
+466325514016030729.fit,ok,
+466326164166705159.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+466349366651682836.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+466372205679247365.fit,ok,
+466372815562506246.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+466418230546694151.fit,ok,
+466442394569572357.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+466442394571669508.fit,ok,
+466488297303080964.fit,ok,
+466511279670984707.fit,ok,
+466534663622524935.fit,ok,
+466535239685013512.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+466556709421219853.fit,ok,
+466580686610923521.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+466580686613020672.fit,ok,
+466650865036460039.fit,ok,
+466674079601033231.fit,ok,
+466674231535501315.fit,ok,
+467182867066159111.fit,ok,
+467230053185388547.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+467276219522514945.fit,ok,
+468458593685897220.fit,ok,
+468512200783331328.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+468559129741393938.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+468605327217033220.fit,ok,
+468651982104592389.fit,ok,
+468651982104592405.fit,ok,
+468652272549658635.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+468674485046771728.fit,ok,
+468721867125981190.fit,ok,
+468767664095920129.fit,ok,
+468813380801560576.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+468861115068088329.fit,ok,
+468930473687547908.fit,ok,
+468946235143782402.fit,ok,
+468997109568274443.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469084910244626443.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469087543864885253.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469089997633388564.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469138048383221773.fit,ok,
+469185239606919175.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469247980220743700.fit,ok,
+469300324327260184.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469347166584864787.fit,ok,
+469440838477316103.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469486054550831122.fit,ok,
+469648833006043145.fit,ok,
+469741432503042056.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469812547229351945.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469812547229351947.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469883609071779841.fit,ok,
+469918110544068616.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+469919548552806426.fit,ok,
+469976702221582336.fit,ok,
+470507390528160345.fit,ok,
+470553401978028135.fit,ok,
+470569805529776228.fit,ok,
+470570428568469606.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+470570825586606084.fit,ok,
+470624625953374215.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+470970406524715611.fit,ok,
+471018655379915053.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471057939300385271.fit,ok,
+471111041200193539.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471171590575390824.fit,ok,
+471218456721653762.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471359451371176238.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471381297990762599.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471434278291406949.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471480702861344873.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471543189541519768.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471590635239932307.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471637266236735890.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471681922353889590.fit,ok,
+471752612683743439.fit,ok,
+471775784026013800.fit,ok,
+471799052279775235.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471869091922083841.fit,ok,
+471910794443915564.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+471956857968164869.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+472006681205702759.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+472077878610132993.fit,ok,
+472119965793681608.fit,ok,
+472120204170657995.fit,ok,
+472142655837470922.fit,ok,
+472190548480917707.fit,ok,
+472235636242284646.fit,ok,
+472280587906875395.fit,ok,
+472350940819652811.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+472356252077293668.fit,ok,
+472540949629665380.fit,ok,
+472587337155510274.fit,ok,
+472610501524750535.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+472665667164733541.fit,ok,
+472685681443897551.fit,ok,
+472745804006719492.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+472746334166745190.fit,ok,
+472773024697843715.fit,ok,
+472840640636420399.fit,ok,
+472886347678384331.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+472936476395470848.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+473025369595740467.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+473075689438871757.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+473149518846656520.fit,ok,
+473238071945494729.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+473399999728746700.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+473490877478633572.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+473490877478633573.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)
+473490877478633574.fit,ok,
+473562076768403756.fit,ok,
+473567182947647988.fit,ok,
+473585256700608813.fit,ok,
+473590182222790759.fit,ok,
+473627365908447233.fit,ok,
+473910520747950383.fit,error,Invalid field size 1 for type 'uint32' (expected a multiple of 4)

@@ -1,0 +1,9 @@
+method,pred_min,pred_hhmmss,p10_min,p10_hhmmss,p90_min,p90_hhmmss,details
+true_official,223.0,03:43:00,,,,,Ground truth (evaluation only)
+coros_pred,231.0,03:51:00,,,,,Coros prediction before race
+llm_p50,244.0,04:04:00,237.0,03:57:00,253.0,04:13:00,Prediction is anchored on the best 20+ km training pace (21.379 km at 5.349 min/km) and adjusted slower by ~5–12% to reflect marathon fatigue given a longest long run of 25.01 km and peak week of 53.12 km. The uncertainty band reflects variability from a relatively moderate 16-week volume (417.86 km across 35 runs) and limited marathon-specific long-run exposure.
+riegel_pure,235.08,03:55:05,,,,,From baseline_predictions.csv
+riegel_corrected,251.53,04:11:32,,,,,From baseline_predictions.csv (penalty on long_run/volume)
+heuristic_best_longrun_pace_factor,250.5073070361221,04:10:30,,,,,Ref run: 21.38km in 114.35min (pace 5.349 min/km). Fatigue factor=1.110
+extended_riegel_loglog_fit,221.49631039052,03:41:30,,,,,Fitted on top-20 fastest runs (3-25km). exponent_b=0.9377
+hr_pace_linear_model,260.01951541913115,04:20:01,,,,,"HRmax_est=197.0 (tanaka=191.2, data=197.0); HR_target_mid=167.4 (band 161.5-173.4); pace(HR)=a*HR+b with a=-0.00722, b=6.969; pace@HRmid=5.759; penalty=7.0%"

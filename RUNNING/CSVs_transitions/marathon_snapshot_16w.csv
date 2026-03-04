@@ -1,0 +1,2 @@
+race_date,train_window_start,train_window_end,n_runs_16w,total_km_16w,total_duration_h_16w,max_week_km,max_long_run_km,pace_16w_wavg_min_km,avg_hr_16w_wavg
+2025-10-05,2025-06-15,2025-10-04,35,417.85753,40.663069444444446,53.12498,25.00972,5.838794305481744,153.86178476852973

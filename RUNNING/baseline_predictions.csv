@@ -1,0 +1,3 @@
+method,ref_distance_km,ref_time_min,pred_marathon_min,penalty_pct
+riegel_pure,21.37939,114.34883333333332,235.08,0.0
+riegel_corrected,21.37939,114.34883333333332,251.53,7.0

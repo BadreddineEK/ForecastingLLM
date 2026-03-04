@@ -1,0 +1,1086 @@
+exp_id,city,latitude,longitude,date_local,snapshot_start_fixed,snapshot_end_fixed,snapshot_text,prompt_text,model,thread_off_name,thread_on_name,datetime_pred_off_utc,datetime_pred_on_utc,off_json_raw,on_json_raw,baseline_provider,baseline_run_datetime_utc,baseline_tmax,baseline_precip_sum,baseline_precip_prob_max,obs_run_datetime_utc,obs_tmax,obs_precip_sum,obs_rain_gt0
+WEATHER_London_2025-12-18,London,51.50853,-0.12574,2025-12-18,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: London
+Date (locale): 2025-12-18
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C
+
+À prédire pour le jour 2025-12-18:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-18 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,12.0,15.3,98.0,,,,
+WEATHER_London_2025-12-19,London,51.50853,-0.12574,2025-12-19,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: London
+Date (locale): 2025-12-19
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C
+
+À prédire pour le jour 2025-12-19:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-19 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,11.6,0.0,15.0,,,,
+WEATHER_London_2025-12-20,London,51.50853,-0.12574,2025-12-20,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: London
+Date (locale): 2025-12-20
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C
+
+À prédire pour le jour 2025-12-20:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-20 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,9.0,0.0,16.0,,,,
+WEATHER_London_2025-12-21,London,51.50853,-0.12574,2025-12-21,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: London
+Date (locale): 2025-12-21
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C
+
+À prédire pour le jour 2025-12-21:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-21 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,9.1,1.1,23.0,,,,
+WEATHER_London_2025-12-22,London,51.50853,-0.12574,2025-12-22,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: London
+Date (locale): 2025-12-22
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C
+
+À prédire pour le jour 2025-12-22:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-22 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,9.8,0.1,18.0,,,,
+WEATHER_London_2025-12-23,London,51.50853,-0.12574,2025-12-23,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: London
+Date (locale): 2025-12-23
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C
+
+À prédire pour le jour 2025-12-23:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-23 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,7.2,0.0,13.0,,,,
+WEATHER_London_2025-12-24,London,51.50853,-0.12574,2025-12-24,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: London
+Date (locale): 2025-12-24
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=12.8 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.6 °C
+- 2025-12-12: precip_sum=0.20 mm, tmax=12.1 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.1 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=10.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.3 °C
+- 2025-12-16: precip_sum=4.50 mm, tmax=11.4 °C
+
+À prédire pour le jour 2025-12-24:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-24 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,8.5,0.0,22.0,,,,
+WEATHER_Lyon_2025-12-18,Lyon,45.74846,4.84671,2025-12-18,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Lyon
+Date (locale): 2025-12-18
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C
+
+À prédire pour le jour 2025-12-18:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-18 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,14.6,0.0,0.0,,,,
+WEATHER_Lyon_2025-12-19,Lyon,45.74846,4.84671,2025-12-19,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Lyon
+Date (locale): 2025-12-19
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C
+
+À prédire pour le jour 2025-12-19:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-19 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,14.6,3.9,55.0,,,,
+WEATHER_Lyon_2025-12-20,Lyon,45.74846,4.84671,2025-12-20,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Lyon
+Date (locale): 2025-12-20
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C
+
+À prédire pour le jour 2025-12-20:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-20 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,14.4,10.4,63.0,,,,
+WEATHER_Lyon_2025-12-21,Lyon,45.74846,4.84671,2025-12-21,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Lyon
+Date (locale): 2025-12-21
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C
+
+À prédire pour le jour 2025-12-21:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-21 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,12.6,1.7,44.0,,,,
+WEATHER_Lyon_2025-12-22,Lyon,45.74846,4.84671,2025-12-22,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Lyon
+Date (locale): 2025-12-22
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C
+
+À prédire pour le jour 2025-12-22:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-22 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,7.8,0.0,36.0,,,,
+WEATHER_Lyon_2025-12-23,Lyon,45.74846,4.84671,2025-12-23,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Lyon
+Date (locale): 2025-12-23
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C
+
+À prédire pour le jour 2025-12-23:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-23 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,6.7,0.0,26.0,,,,
+WEATHER_Lyon_2025-12-24,Lyon,45.74846,4.84671,2025-12-24,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Lyon
+Date (locale): 2025-12-24
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.00 mm, tmax=14.6 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=11.8 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=12.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=7.6 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.0 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=13.8 °C
+- 2025-12-16: precip_sum=2.10 mm, tmax=11.6 °C
+
+À prédire pour le jour 2025-12-24:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-24 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,7.2,3.1,25.0,,,,
+WEATHER_New York_2025-12-18,New York,40.71427,-74.00597,2025-12-18,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: New York
+Date (locale): 2025-12-18
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C
+
+À prédire pour le jour 2025-12-18:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-18 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,10.2,1.2,73.0,,,,
+WEATHER_New York_2025-12-19,New York,40.71427,-74.00597,2025-12-19,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: New York
+Date (locale): 2025-12-19
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C
+
+À prédire pour le jour 2025-12-19:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-19 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,11.4,22.0,98.0,,,,
+WEATHER_New York_2025-12-20,New York,40.71427,-74.00597,2025-12-20,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: New York
+Date (locale): 2025-12-20
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C
+
+À prédire pour le jour 2025-12-20:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-20 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,2.1,0.4,2.0,,,,
+WEATHER_New York_2025-12-21,New York,40.71427,-74.00597,2025-12-21,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: New York
+Date (locale): 2025-12-21
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C
+
+À prédire pour le jour 2025-12-21:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-21 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,7.1,0.0,7.0,,,,
+WEATHER_New York_2025-12-22,New York,40.71427,-74.00597,2025-12-22,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: New York
+Date (locale): 2025-12-22
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C
+
+À prédire pour le jour 2025-12-22:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-22 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,2.7,0.0,7.0,,,,
+WEATHER_New York_2025-12-23,New York,40.71427,-74.00597,2025-12-23,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: New York
+Date (locale): 2025-12-23
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C
+
+À prédire pour le jour 2025-12-23:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-23 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,1.2,1.9,25.0,,,,
+WEATHER_New York_2025-12-24,New York,40.71427,-74.00597,2025-12-24,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: New York
+Date (locale): 2025-12-24
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=3.10 mm, tmax=6.2 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=3.7 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=1.3 °C
+- 2025-12-13: precip_sum=1.10 mm, tmax=3.5 °C
+- 2025-12-14: precip_sum=11.40 mm, tmax=0.2 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=-3.1 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=-2.6 °C
+
+À prédire pour le jour 2025-12-24:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-24 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,5.1,0.5,18.0,,,,
+WEATHER_Paris_2025-12-18,Paris,48.85341,2.3488,2025-12-18,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Paris
+Date (locale): 2025-12-18
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C
+
+À prédire pour le jour 2025-12-18:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-18 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,15.2,0.1,58.0,,,,
+WEATHER_Paris_2025-12-19,Paris,48.85341,2.3488,2025-12-19,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Paris
+Date (locale): 2025-12-19
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C
+
+À prédire pour le jour 2025-12-19:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-19 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,13.6,11.24,80.0,,,,
+WEATHER_Paris_2025-12-20,Paris,48.85341,2.3488,2025-12-20,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Paris
+Date (locale): 2025-12-20
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C
+
+À prédire pour le jour 2025-12-20:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-20 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,10.9,2.0,40.0,,,,
+WEATHER_Paris_2025-12-21,Paris,48.85341,2.3488,2025-12-21,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Paris
+Date (locale): 2025-12-21
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C
+
+À prédire pour le jour 2025-12-21:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-21 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,12.4,2.4,30.0,,,,
+WEATHER_Paris_2025-12-22,Paris,48.85341,2.3488,2025-12-22,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Paris
+Date (locale): 2025-12-22
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C
+
+À prédire pour le jour 2025-12-22:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-22 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,10.6,0.0,28.0,,,,
+WEATHER_Paris_2025-12-23,Paris,48.85341,2.3488,2025-12-23,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Paris
+Date (locale): 2025-12-23
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C
+
+À prédire pour le jour 2025-12-23:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-23 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,9.8,0.0,20.0,,,,
+WEATHER_Paris_2025-12-24,Paris,48.85341,2.3488,2025-12-24,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Paris
+Date (locale): 2025-12-24
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=0.10 mm, tmax=13.6 °C
+- 2025-12-11: precip_sum=0.20 mm, tmax=10.4 °C
+- 2025-12-12: precip_sum=0.00 mm, tmax=11.7 °C
+- 2025-12-13: precip_sum=0.00 mm, tmax=9.3 °C
+- 2025-12-14: precip_sum=0.00 mm, tmax=7.4 °C
+- 2025-12-15: precip_sum=0.00 mm, tmax=11.0 °C
+- 2025-12-16: precip_sum=0.00 mm, tmax=13.6 °C
+
+À prédire pour le jour 2025-12-24:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-24 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,7.9,0.0,13.0,,,,
+WEATHER_Sao Paulo_2025-12-18,Sao Paulo,-23.5475,-46.63611,2025-12-18,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Sao Paulo
+Date (locale): 2025-12-18
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C
+
+À prédire pour le jour 2025-12-18:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-18 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,23.7,0.0,0.0,,,,
+WEATHER_Sao Paulo_2025-12-19,Sao Paulo,-23.5475,-46.63611,2025-12-19,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Sao Paulo
+Date (locale): 2025-12-19
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C
+
+À prédire pour le jour 2025-12-19:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-19 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,25.3,0.0,23.0,,,,
+WEATHER_Sao Paulo_2025-12-20,Sao Paulo,-23.5475,-46.63611,2025-12-20,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Sao Paulo
+Date (locale): 2025-12-20
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C
+
+À prédire pour le jour 2025-12-20:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-20 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,27.8,1.8,47.0,,,,
+WEATHER_Sao Paulo_2025-12-21,Sao Paulo,-23.5475,-46.63611,2025-12-21,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Sao Paulo
+Date (locale): 2025-12-21
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C
+
+À prédire pour le jour 2025-12-21:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-21 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,31.8,0.3,53.0,,,,
+WEATHER_Sao Paulo_2025-12-22,Sao Paulo,-23.5475,-46.63611,2025-12-22,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Sao Paulo
+Date (locale): 2025-12-22
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C
+
+À prédire pour le jour 2025-12-22:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-22 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,32.1,0.0,47.0,,,,
+WEATHER_Sao Paulo_2025-12-23,Sao Paulo,-23.5475,-46.63611,2025-12-23,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Sao Paulo
+Date (locale): 2025-12-23
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C
+
+À prédire pour le jour 2025-12-23:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-23 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,33.1,0.0,13.0,,,,
+WEATHER_Sao Paulo_2025-12-24,Sao Paulo,-23.5475,-46.63611,2025-12-24,2025-12-10,2025-12-16,"- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C","Donne une prévision probabiliste pour la journée suivante.
+Réponds UNIQUEMENT en JSON strict avec les champs:
+tmax_p10, tmax_p50, tmax_p90 (°C),
+p_rain_gt0 (0-1),
+rain_p50, rain_p90 (mm),
+justification (2 phrases max).
+
+Ville: Sao Paulo
+Date (locale): 2025-12-24
+
+Snapshot observations (7 derniers jours complets disponibles à J0=2025-12-17):
+- 2025-12-10: precip_sum=4.00 mm, tmax=27.0 °C
+- 2025-12-11: precip_sum=0.00 mm, tmax=29.5 °C
+- 2025-12-12: precip_sum=3.50 mm, tmax=30.1 °C
+- 2025-12-13: precip_sum=24.50 mm, tmax=27.2 °C
+- 2025-12-14: precip_sum=7.50 mm, tmax=26.8 °C
+- 2025-12-15: precip_sum=2.20 mm, tmax=28.6 °C
+- 2025-12-16: precip_sum=10.80 mm, tmax=30.0 °C
+
+À prédire pour le jour 2025-12-24:
+- Tmax (°C): quantiles P10/P50/P90
+- Pluie (mm): p(pluie>0), P50 et P90 de precipitation_sum
+
+Deadline: 2025-12-24 23:59 (heure locale)
+",GPT-5.2 (reasoning=ON),Forecasting Study — Weather — Web OFF,Forecasting Study — Weather — Web ON,,,,,Open-Meteo Forecast API,2025-12-17T13:54:39.341733+00:00,34.1,0.0,13.0,,,,
